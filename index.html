@@ -1,37 +1,33 @@
-<HTML>
-    <HEAD><TITLE>Cara Membuat Pasword</TITLE></HEAD>
-    <BODY>
-    <SCRIPT LANGUAGE="JavaScript">
-    //menyembunyikan script dan browser non-JS
-    function pass()
-    {
-    var coba = 1;
-     do
-      {
-       p = prompt("Tuliskan password dengan benar","");
-       if (p=="BRO")
-        {
-          alert("Selamat Datang SOBAT CATATAN SEDERHANA");
-          window.open("getFilter.html");
-          break;
-        }
-       else
-        {
-          alert("Password Salah !!! Ulangi lagi.");
-        }
-       if (coba==3)
-        {
-          alert("maaf, kesempatan anda hanya 3 kali");
-         history.go(-1);
-        }
-      coba=coba+1;
-      }
-     while (coba<=3)
-    }             
-    // akhir dari penyembunyian -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+  <SCRIPT LANGUAGE="JavaScript"> 
+        eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('f e(){d 0=1;g{p=h("j i c a 5 6 b","");2(p=="7"){9.8("k.u");l}x{4("w z !!! A y.")}2(0==3){4("v, o n m 3 q");r.t(-1)}0=0+1}s(0<=3)}',37,37,'coba||if||alert|tanya|QA|ap123|open|window|passwordnya|ya|tahu|var|pass|function|do|prompt|nggak|Kalau|getFilter|break|hanya|anda|kesempatan||kali|history|while|go|html|maaf|Password|else|lagi|Salah|Ulangi'.split('|'),0,{}))
     </SCRIPT>
-    <FORM METHOD="post">
-    <INPUT TYPE="button" VALUE="Password" ONCLICK="pass()">
-    </FORM>
-    </BODY>
-    </HTML>
+  <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+        <h2>NEWMAN REPORT API</h2>
+        <div class="underline-title"></div>
+      </div>
+      <form method="post" class="form">
+        
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" ONCLICK="pass()" />
+        
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
+
